@@ -1,0 +1,2 @@
+
+PROJECT: BUILDING WITH BACKGROUNDS AND GRADIENTS part of the Odin Project curriculum.
