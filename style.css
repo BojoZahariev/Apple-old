@@ -17,6 +17,9 @@ header {
   background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
 }
 
+
+/*Navigation bar*/
+
 nav {
   margin-top: 20px;
   width: 980px;
@@ -39,7 +42,7 @@ nav {
 .globalnav li {
   display: block;
   padding-top: 16px;
-  width: 104px;
+  width: 105px;
   height: 36px;
   cursor: pointer;
 }
@@ -104,7 +107,6 @@ nav {
 }
 
 #search {
-  width: 120px;
   border-left: 1px solid #ddcfcf56;
 }
 
@@ -116,13 +118,13 @@ form {
 
 input {
   position: absolute;
-  top: -9px;
+  top: -12px;
   width: 106px;
-  height: 19px;
+  height: 23px;
   border-radius: 12px;
   background-image: none;
   border: 1px solid #8b8a8a;
-  box-shadow: inset 0px 2px 2px black;
+  box-shadow: inset 0px 1px 0px black;
   background: none;
   outline: none;
   padding-left: 20px;
@@ -136,6 +138,9 @@ input {
   left: 5px;
   z-index: 2;
 }
+
+
+/*Text on picture*/
 
 section {
   text-align: center;
@@ -173,14 +178,16 @@ section {
   margin-left: 10px;
 }
 
+
+/*article pics*/
+
 .bottom-section {
   overflow: hidden;
   height: 200;
-  margin: 654px auto 0 auto;
+  margin: 654px auto 0px auto;
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   padding: 0;
 }
 
@@ -193,4 +200,84 @@ section {
 #part3,
 #part4 {
   border-left: 2px solid #fff;
+}
+
+footer {
+  width: 1100px;
+  margin: auto;
+}
+
+.footer-wraper {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+
+.left {
+  font-size: 12px;
+  padding-top: 4px;
+  margin-top: 0px;
+  height: 22px;
+}
+
+.left a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.footer-right {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+}
+
+.footer-right li a {
+  text-decoration: none;
+  color: #08c;
+  font-size: 12px;
+  padding: 0px 5px;
+}
+
+.bordered,
+.worldwide {
+  border-left: 1px solid #ccc;
+}
+
+.worldwide {
+  padding-top: 3px;
+}
+
+.under-left {
+  margin-top: -10px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.under-left p {
+  display: inline;
+}
+
+.under-left ul {
+  margin-left: -40px;
+  list-style-type: none;
+  display: inline;
+}
+
+.under-left ul li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+.under-left ul li a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.secondli {
+  border-left: 1px solid #ccc;
 }
